@@ -1,0 +1,10 @@
+1st - I created an event Handler "inputChangedHandler" to capture what the value of the "UserInput" which I saved into a "state" which was originally empty, but I setState to be the userInput value
+2nd - I will be binding no1 step in my return with "onCHange" and set the value to "ThisStateInput" to always reflect the value entered
+3rd - I set a '<p>' which content returns what the user inputs
+4th - I am adding a new component "Verification" that will verify the length of text entered; Remember to always import React into New Component and export by default the component; 'props' because this will be like a child of the main root app.js; Components always need to have "Return" method cause I want to tell it what to return; then import the all thing into "App.js" our root
+5th- I put our "verification 1" into the return of our root "App.js" so it can display the array of the userinputlength (this is what I decide to call this metho).
+6th- I went back into verification component to set a condition using "userinput"
+
+
+
+
